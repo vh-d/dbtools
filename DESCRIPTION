@@ -1,0 +1,19 @@
+Package: dbtools
+Type: Package
+Title: DBI connections management
+Version: 0.1.3
+Author: Vaclav Hausenblas
+Maintainer: Vaclav Hausenblas <vaclav.hausenblas@gmail.com>
+Description: ...
+License: GPLv2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends:
+  DBI
+Suggests:
+  odbc,
+  ROracle,
+  tcltk,
+  gWidgets2,
+  gWidgets2tcltk
